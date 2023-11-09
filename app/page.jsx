@@ -1,5 +1,5 @@
 import TicketCard from './(components)/TicketCard';
-// https://www.youtube.com/watch?v=H0vhkoXljq0 1:46:30
+// https://www.youtube.com/watch?v=H0vhkoXljq0 2:06:09
 const getTickets = async () => {
   try {
     const res = await fetch('http://localhost:3000/api/Tickets', {
